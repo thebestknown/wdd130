@@ -13,15 +13,15 @@ h1 {color: steelblue;}
 
 main img {
     width: 150px;
-    height: aauto;
-    border: 1px slid stellblue;
+    height: auto;
+    border: 1px slid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {padding: 0;}
 
-main {max-width: 840;}
+main {max-width: 840px;}
 
 aside {
     width: 20rem;
