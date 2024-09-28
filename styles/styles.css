@@ -23,7 +23,7 @@ p {padding: 0;}
 
 main {max-width: 840px;}
 
-.ecuador-container {
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /*1️⃣*/
@@ -33,7 +33,7 @@ main {max-width: 840px;}
     text-align: center;
 }
 
-.ecuador-image {
+aside img {
     width: 200px;
     height: auto;
 }
