@@ -1,6 +1,12 @@
+:root {
+    --background-color: steelblue;
+    --border-color: steelblue;
+    --padding: 10px;
+}
+
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--padding);
 }
 
 nav a {
@@ -9,24 +15,30 @@ nav a {
     padding: 20px;
 }
 
-h1 {color: steelblue;}
+h1 {
+    color: var(--background-color);
+}
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p {padding: 0;}
+p {
+    padding: 0;
+}
 
-main {max-width: 840px;}
+main {
+    max-width: 840px;
+}
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /*1️⃣*/
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
