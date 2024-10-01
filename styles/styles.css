@@ -22,7 +22,8 @@ nav a {
 }
 
 h1 {
-    color: var(--background-color);
+    color: steelblue;
+    padding: 1rem;
 }
 
 main img {
@@ -32,6 +33,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;   
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -40,7 +42,6 @@ p {
 
 main {
     max-width: 840px;
-    clear: both;
 }
 
 aside {
@@ -69,12 +70,13 @@ aside img {
 aside {
 	width: 25em;
 	text-align: left;
+    position: relative;
 }
 
 aside h2 {
-  position: relative;
-  top: 54px;
-  left: 100px;
+  position: absolute;
+  top: 35px;
+  left: 75px;
 }
 
 footer {
