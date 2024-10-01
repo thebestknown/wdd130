@@ -69,14 +69,14 @@ aside img {
 }
 aside {
 	width: 25em;
-	text-align: left;
+	text-align: center;
     position: relative;
 }
 
 aside h2 {
   position: absolute;
-  top: 35px;
-  left: 75px;
+  top: 24px;
+  left: 154px;
 }
 
 footer {
