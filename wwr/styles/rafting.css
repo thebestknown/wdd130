@@ -1,13 +1,10 @@
 :root {
-    --primary-color: #167293; /* Azul más oscuro */
-    --secondary-color: #02567b; /* Azul oscuro más claro para mejor contraste */
-    --accent1-color: #b35800; /* Naranja más oscuro para mejorar contraste */
-    --accent2-color: #3f0c5f; /* Púrpura más oscuro */
+    --primary-color: #219ebc;
+    --secondary-color: #023047;
+    --accent1-color: #fb8500;
+    --accent2-color: #ffb703;
 }
 
-p {
-    color: #023047; /* Azul oscuro */
-}
 /* Global styles */
 body {
     font-family: 'Open Sans', sans-serif;
