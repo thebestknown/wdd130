@@ -1,8 +1,13 @@
 :root {
-    --primary-color: #219ebc;
-    --secondary-color: #023047;
-    --accent1-color: #fb8500;
+    --primary-color: #187b99;
+    --secondary-color: #034766;
+    --accent1-color: #d26900;
     --accent2-color: #ffb703;
+    --other-color: #400a70;
+}
+
+p {
+    color: #023047; 
 }
 
 /* Global styles */
