@@ -1,8 +1,22 @@
 :root {
-    --primary-color: #219ebc;
-    --secondary-color: #023047;
-    --accent1-color: #fb8500;
-    --accent2-color: #ffb703;
+    --primary-color: #206a8b; 
+    --secondary-color: #034f6b; 
+    --accent1-color: #c45500; 
+    --accent2-color: #451a7d; 
+    --text-color: #023047; 
+}
+
+p {
+    color: var(--text-color); 
+}
+
+body, .white-water-rafting, .adventure {
+    background-color: #ffffff; 
+}
+
+.header, footer {
+background-color: var(--primary-color); 
+    color: #ffffff;
 }
 
 /* Global styles */
@@ -30,7 +44,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    color: var(--accent1-color);
+    color: #b34700;
 }
 
 /* Header styles */
@@ -52,13 +66,14 @@ nav {
 }
 
 nav a {
+    color: #02567b;
     text-decoration: none;
     color: var(--secondary-color);
     margin-left: 2rem;
 }
 
 nav a:hover {
-    color: var(--accent1-color);
+    color: var(--accent1-color); 
 }
 
 /* White Water Rafting Section */
@@ -89,10 +104,12 @@ nav a:hover {
 }
 
 .history-grid img {
+    background-color: var(--secondary-color); 
     width: 150px; 
     height: auto;
     justify-self: center; 
 }
+
 .history {
     padding: 2rem;
     background-color: #f9f9f9;
@@ -133,6 +150,11 @@ nav a:hover {
 }
 
 /* Footer */
+
+footer p {
+    color: #ffffff; 
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
