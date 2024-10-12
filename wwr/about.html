@@ -16,55 +16,68 @@
  </head>
   <body>
     <header>
-        <img src="images/raftinglogo.webp" alt="Rafting Company Logo">
+        <div class="logo-container">
+            <img src="images/raftinglogo.webp" alt="Rafting Company Logo" class="logo">
+        </div>
         <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
-        <div class="hero">
-        <img src="images/hero_background.jpg" alt="Exciting Rafting Adventure" class="background-image">
-        <h1>White Water Rafting</h1>
-            <article>
-                <h2>Ready for Adventure?</h2>
-                <img src="images/happy_person.jpg" alt="Happy Client">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Quisque sit amet risus nec urna vehicula suscipit.</p>
-            </article>
-        </div>
-        
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo est ut sapien faucibus, nec consequat orci varius.</p>
+        <!-- White Water Rafting Section -->
+        <section class="white-water-rafting">
+            <div class="text-content">
+                <h1>White Water Rafting</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+            <img src="images/happy_person.jpg" alt="Exciting Rafting Adventure" class="side-image">
         </section>
 
-        <section>
+        <!-- History Section -->
+        <section class="history">
+            <h2>History</h2>
+            <div class="history-grid">
+                <p class="left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+                <img src="images/rafting_history.jpg" alt="History Image" class="center-image">
+                <p class="right-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+            </div>
+        </section>
+
+        <!-- Adventure Awaits You Section -->
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
-            
-            <img src="images/rafting_activities1.jpg" alt="Rafting Adventure 1">
-            <p>Peaceful rapids</p>
-            
-            <img src="images/rafting_activities2.jpg" alt="Rafting Adventure 2">
-            <p>Colorado River</p>
-            
-            <img src="images/rafting_activities3.jpg" alt="Rafting Adventure 3">
-            <p>Bear River</p>
-            
-            <img src="images/rafting_activities4.jpg" alt="Rafting Adventure 4">
-            <p>Smokey River</p>
-            
-            <img src="images/rafting_activities5.jpg" alt="Rafting Adventure 5">
-            <p>Boise River</p>
+            <div class="adventure-grid">
+                <figure>
+                    <img src="images/rafting_activities1.jpg" alt="Rafting Adventure 1">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_activities2.jpg" alt="Rafting Adventure 2">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_activities3.jpg" alt="Rafting Adventure 3">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_activities4.jpg" alt="Rafting Adventure 4">
+                    <figcaption>Smokey River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_activities5.jpg" alt="Rafting Adventure 5">
+                    <figcaption>Boise River</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 White Water Rafting Company | Designed by Jeimy Espinoza</p>
-        
-        <nav class="sociallinks">
+        <div class="sociallinks">
             <a href="https://facebook.com">
                 <img src="images/facebook_logo.png" alt="Facebook">
             </a>
@@ -74,8 +87,8 @@
             <a href="https://instagram.com">
                 <img src="images/instagram_logo.png" alt="Instagram">
             </a>
-        </nav>
+        </div>
     </footer>
     
     </body>
-    </html>
+</html>
