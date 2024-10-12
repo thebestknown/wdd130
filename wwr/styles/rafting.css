@@ -27,7 +27,7 @@ body {
 /* Headings */
 h1, h2 {
     font-family: 'Poppins', sans-serif;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-bottom: 2rem;
 }
 
