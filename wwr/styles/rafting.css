@@ -1,22 +1,16 @@
 :root {
     --primary-color: #206a8b; 
-    --secondary-color: #034f6b; 
+    --secondary-color: #02567b; 
     --accent1-color: #c45500; 
-    --accent2-color: #451a7d; 
-    --text-color: #023047; 
+    --text-color: #022638; 
 }
 
 p {
-    color: var(--text-color); 
+    color: #301d0e; 
 }
 
 body, .white-water-rafting, .adventure {
     background-color: #ffffff; 
-}
-
-.header, footer {
-background-color: var(--primary-color); 
-    color: #ffffff;
 }
 
 /* Global styles */
@@ -66,15 +60,15 @@ nav {
 }
 
 nav a {
-    color: #02567b;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #e0e0e0;
     margin-left: 2rem;
 }
 
 nav a:hover {
     color: var(--accent1-color); 
 }
+
 
 /* White Water Rafting Section */
 .white-water-rafting {
