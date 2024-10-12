@@ -1,13 +1,12 @@
 :root {
-    --primary-color: #187b99;
-    --secondary-color: #034766;
-    --accent1-color: #d26900;
-    --accent2-color: #ffb703;
-    --other-color: #400a70;
+    --primary-color: #167293; 
+    --secondary-color: #034f73;
+    --accent1-color: #d26b00; 
+    --accent2-color: #3f0c5f; 
 }
 
 p {
-    color: #023047; 
+    color: #023047; /* Azul oscuro */
 }
 
 /* Global styles */
