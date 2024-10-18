@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WDD 130 | HTML Form - User Poll</title>
+
+  .
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
 <header>
@@ -14,15 +20,23 @@
     <form>
       <fieldset>
         <legend>Contact Information</legend>
-        <label for="fullname">Full name:</label>
-        <input type="text" id="fullname" name="fullname">
-        <label for="usermail">Email:</label>
-        <input type="email" id="usermail" name="usermail">
+        
+        <div class="form-item column2">
+          <label for="fullname">Full name:</label>
+          <input type="text" id="fullname" name="fullname">
+        </div>
+        <div class="form-item column2">
+          <label for="usermail">Email:</label>
+          <input type="email" id="usermail" name="usermail">
+        </div>
+
       </fieldset>
 
-      <fieldset>
+      <fieldset id="questions">
         <legend>Questions</legend>
         <label for="browser">What is your favourite browser?</label>
+
+        <div class="form-item column1">
         <select name="browser" id="browser">
             <option value="chrome">Chrome</option>
             <option value="firefox">Firefox</option>
@@ -30,8 +44,11 @@
             <option value="safari">Safari</option>
             <option value="other">Other</option>
         </select>
+        </div>
+        <div class="form-item column1">
         <label for="pet">Do you have a household pet?</label>
         <input type="checkbox" name="pet" id="pet">
+        </div>
         <label for="feedback">List the places you have lived:</label>
         <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
       </fieldset>
