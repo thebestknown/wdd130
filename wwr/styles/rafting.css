@@ -139,6 +139,10 @@ footer p {
     color: #ffffff; 
 }
 
+footer a {
+    color: #ffffff; 
+    text-decoration: underline;
+
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -159,9 +163,6 @@ footer .sociallinks {
 footer .sociallinks img {
     width: 30px;
 }
-footer a {
-    color: #bdbdbd; 
-    text-decoration: underline;
 
 /* Styles for the Contact page */
 
