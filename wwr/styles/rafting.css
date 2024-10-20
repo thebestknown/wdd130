@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--accent1-color); 
+    color: orange; 
 }
 
 /* White Water Rafting Section */
@@ -159,6 +159,9 @@ footer .sociallinks {
 footer .sociallinks img {
     width: 30px;
 }
+footer a {
+    color: #bdbdbd; 
+    text-decoration: underline;
 
 /* Styles for the Contact page */
 
