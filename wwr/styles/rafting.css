@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    color: orange; 
+    color: var(--accent1-color); 
 }
 
 /* White Water Rafting Section */
@@ -138,10 +138,6 @@ nav a:hover {
 footer p {
     color: #ffffff; 
 }
-
-footer a {
-    color: #ffffff; 
-    text-decoration: underline;
 
 footer {
     background-color: var(--primary-color);
