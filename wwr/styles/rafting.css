@@ -54,11 +54,19 @@ nav {
 nav a {
     text-decoration: none;
     color: #e0e0e0;
-    margin-left: 2rem;
+    padding: 15px 25px; 
+    font-size: 18px;    
+    margin: 5px;       
+    border-radius: 5px;
 }
 
 nav a:hover {
     color: var(--accent1-color); 
+}
+
+a {
+    color: #E0E0E0; /* Ajuste a un color más claro */
+    background-color: #02567b; /* Fondo más oscuro */
 }
 
 /* White Water Rafting Section */
@@ -286,4 +294,145 @@ button:hover {
     .google-map {
         height: 200px;
     }
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.911);
+    color: #f0f4f8;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.newsletter h2 {
+    color: var(--primary-color);
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #a03d00;
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent1-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    background-color: #a03d00;
+}
+
+/* Additional Content Section */
+.additional-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.additional-content h2 {
+    margin-bottom: 20px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    width: 100%;
+}
+
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.content-item p {
+    font-size: 1rem;
 }
