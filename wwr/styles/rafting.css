@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #206a8b; 
-    --secondary-color: #02567b; 
+    --primary-color: #1b3846; 
+    --secondary-color: #05364b; 
     --accent1-color: #c45500; 
     --text-color: #022638; 
 }
@@ -65,8 +65,7 @@ nav a:hover {
 }
 
 a {
-    color: #E0E0E0; /* Ajuste a un color más claro */
-    background-color: #02567b; /* Fondo más oscuro */
+    color: #E0E0E0; 
 }
 
 /* White Water Rafting Section */
@@ -271,8 +270,8 @@ fieldset {
 }
 
 button {
-    background-color: var(--accent1-color);
-    color: white;
+    background-color:  rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -360,8 +359,8 @@ button:hover {
 }
 
 .newsletter button {
-    background-color: var(--accent1-color);
-    color: white;
+    background-color: rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -369,7 +368,7 @@ button:hover {
 }
 
 .newsletter button:hover {
-    background-color: #a03d00;
+    background-color: #df6214;
 }
 
 /* Call to Action Section */
@@ -435,4 +434,99 @@ button:hover {
 
 .content-item p {
     font-size: 1rem;
+}
+
+.trips-page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.cta-section {
+    grid-row: 1;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 1rem;
+}
+
+.cta-section h2 {
+    color: white; 
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 196, 0);
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.trips-descriptions {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.trip {
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.trips-table-section {
+    grid-row: 3;
+    padding: 1rem;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.motivational-box {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #c45500; 
+    color: white;
+    padding: 2rem;
+    margin: 2rem auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    max-width: 80%; 
+    text-align: center;
+    margin-top: 2rem;
 }
